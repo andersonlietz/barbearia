@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Premium - Salve seu Estilo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Barbearia Premium</h1>
+        <p>Estilo, tradição e excelência</p>
+    </header>
+
+    <nav class="navbar">
+        <a href="#services">Serviços</a>
+        <a href="#hours">Horário</a>
+        <a href="#contact">Contato</a>
+    </nav>
+
+    <!-- Poste de barbearia decorativo -->
+    <div class="barber-pole"></div>
+
+    <section id="services" class="section foam-background">
+        <h2>Nossos Serviços</h2>
+        <div class="service-list">
+            <div class="service">
+                <h3>Corte de Cabelo</h3>
+                <p>Cortes clássicos e modernos.</p>
+                <p><strong>R$50,00</strong></p>
+            </div>
+            <div class="service">
+                <h3>Barba</h3>
+                <p>Modelagem e aparo de barba.</p>
+                <p><strong>R$30,00</strong></p>
+            </div>
+            <div class="service">
+                <h3>Corte + Barba</h3>
+                <p>Pacote completo para você.</p>
+                <p><strong>R$70,00</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hours" class="section wood-background">
+        <h2>Horário de Funcionamento</h2>
+        <p>Segunda a Sexta: 09:00 - 19:00</p>
+        <p>Sábado: 10:00 - 16:00</p>
+        <p>Domingo: Fechado</p>
+    </section>
+
+    <section id="contact" class="section foam-background">
+        <h2>Entre em Contato</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Barbearia Premium</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
