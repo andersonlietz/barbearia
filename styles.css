@@ -13,7 +13,7 @@ body {
 
 /* Estilos da Cabeçalho */
 .header {
-    background-color: rgba(34, 34, 34, 0.8); /* Fundo escuro semi-transparente */
+    background-color: #D2691E; /* Fundo escuro semi-transparente */
     color: #fff;
     text-align: center;
     padding: 2rem 1rem;
@@ -30,7 +30,7 @@ body {
 
 /* Menu de Navegação */
 .navbar {
-    background-color: #444;
+    background-color: #9d570c;
     padding: 1rem;
     text-align: center;
 }
@@ -45,20 +45,22 @@ body {
     text-decoration: underline;
 }
 
-/* Backgrounds decorativos */
-.wood-background {
-    background-image: url('path/to/wood-texture.jpg'); /* Textura de madeira */
-    background-size: cover;
+main{
+    height:auto;
+    margin:auto;
+    background-color:#be7515;
+    width:90%
 }
 
-.foam-background {
-    background-image: url('path/to/shaving-foam.jpg'); /* Textura de espuma */
-    background-size: cover;
-    background-position: center;
-    padding: 2rem 0;
+section{
+    width:60%;
+    height:auto;
+    border:#FFF solid 1px;
+    margin:10px 5px;
+    padding:2px;
+    float:left;
+    margin-bottom:15px
 }
-
-/* Estilos dos Serviços */
 .section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -77,61 +79,31 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-/* Estilos do formulário */
-#contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    max-width: 400px;
-    margin: 0 auto;
+aside{
+    width:35%;
+    height:auto;
+    border:#FFF solid 1px;
+    float:right;
+    margin-right:4px;
+    margin-top:10px
 }
-
-#contact-form input, #contact-form textarea {
-    width: 100%;
-    padding: 0.75rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-#contact-form button {
-    padding: 0.75rem;
-    background-color: #444;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-#contact-form button:hover {
-    background-color: #555;
-}
-
-/* Poste de Barbearia */
-.barber-pole {
-    width: 50px;
-    height: 300px;
-    background-image: url('path/to/barber-pole.png'); /* Imagem do poste */
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 10;
-    animation: spin 4s linear infinite;
-}
-
-/* Animação do poste de barbearia */
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
+#contato{
+    position:fixed;
+    float:right;
+    right:5%;
+    bottom:0}
+#contato img{width:300px;height:auto}
 /* Rodapé */
 .footer {
-    background-color: rgba(34, 34, 34, 0.8);
+    background-color: rgba(6, 6, 6, 0.8);
     color: #fff;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+    width:90%;
+    margin:auto;
+    display:block;
+    overflow:hidden;
+    font-family:Arial,Helvetica,sans-serif;
+    font-weight:700
 }
