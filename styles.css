@@ -6,9 +6,9 @@
 }
 
 body {
-    color: #333;
-    background-image: url('path/to/wood-texture.jpg'); /* Textura de madeira */
+    background-color: #be7515;
     background-size: cover;
+    height:auto;
 }
 
 /* Estilos da Cabeçalho */
@@ -46,7 +46,7 @@ body {
 }
 
 main{
-    height:auto;
+    height:500px;
     margin:auto;
     background-color:#be7515;
     width:100%
@@ -110,3 +110,12 @@ section{
     font-family:Arial,Helvetica,sans-serif;
     font-weight:700
 }
+@media only screen and (max-width:600px)
+{body{padding-top:80px;margin:0}
+header{width:100%}
+h1{font-size:2.5em}h2{font-size:1.5em}
+main{width:97%;margin:auto;height:auto}
+section{width:95%;margin:15px auto;height:auto;margin-left:2%}
+#contato img{width:200px;height:auto}
+#horarios{height:auto;width:95%;margin:15px auto;margin-right:2%}
+.footer{width:100%;height:100px}#copy{margin:10px}}
