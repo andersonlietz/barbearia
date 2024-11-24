@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #2155e7;
+    background-color: #FFF;
     background-size: cover;
     height:auto;
 }
@@ -49,14 +49,14 @@ body {
 main{
     height:500px;
     margin:auto;
-    background-color:#2155e7;
+    background-color:#FFF;
     width:100%
 }
 section{
-    background-color: #2155e7;
+    background-color: #fff;
     width:60%;
     height:auto;
-    border:#FFF solid 1px;
+    border:#0a0707 solid 1px;
     margin:10px 5px;
     padding:20px;
     float:left;
@@ -76,11 +76,11 @@ section{
 }
 
 .service {
-    background-color: rgb(217, 47, 47);
+    background-color: #FFF;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border: #FFF solid 2px;
+    border: black solid 2px;
 }
 #horarios{
     border:#FFF;
