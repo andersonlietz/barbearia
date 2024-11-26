@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia Premium - Salve seu Estilo</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/barbearia.css">
 </head>
 <body>
     
@@ -14,13 +14,17 @@
     </header>
 
     <nav class="navbar">
-        <a href="#services">Serviços</a>
-        <a href="#portfolio">Porfólio</a>
-        <a href="#horarios">Horário</a>
-        <a href="#contact">Contato</a>
+        <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+        <ul class="menu">
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#portfolio">Porfólio</a></li>
+        <li><a href="#horarios">Horário</a></li>
+        <li><a href="#contact">Contato</a></li>
+    </ul>
     </nav>
-    <main>
-    <section id="services" class="section foam-background">
+   
+    <main class="clearfix">
+    <section id="services">
         <h2>Nossos Serviços</h2>
         <div class="service-list">
             <div class="service">
@@ -43,11 +47,11 @@
     <section id="portfolio">
         <p>Confira alguns dos nossos serviços prestados:</p>
         <div id="galeria">
-        <img src="amostra1.jpg">
-        <img src="amostra2.jpg">
-        <img src="amostra3.jpg">
-        <img src="amostra4.jpg">
-    </div>
+            <img src="./imagens/amostra1.jpg">
+            <img src="./imagens/amostra2.jpg">
+            <img src="./imagens/amostra3.jpg">
+            <img src="./imagens/amostra4.jpg">
+        </div>
     </section>
     <aside id="horarios">
         <h2>Horário de Funcionamento</h2>
@@ -56,8 +60,8 @@
         <p>Domingo: Fechado</p>
     </aside>
     <div id="contato">
-        <a href="https://wa.me/42999427398">
-            <img src="whats.png">
+        <a href="https://wa.me/42 999427398">
+            <img src="./imagens/whats.png">
             </a>
         </div>
             
